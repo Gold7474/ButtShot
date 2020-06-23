@@ -30,7 +30,7 @@ bot.on('message', message=>{
     }
 )
 
-bot.on("guildMemberUpdate",(old,new)) => {
+bot.on("guildMemberUpdate",(old,new) => {
     if(new.roles.find(r => r.name == "ButtShot")) {
         try {
             new.setNickname("ButtShot");
@@ -38,6 +38,6 @@ bot.on("guildMemberUpdate",(old,new)) => {
             console.log(error);
         }
     }
-});
+};
 
 bot.login(process.env.token);
