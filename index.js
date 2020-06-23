@@ -24,6 +24,7 @@ bot.on('message', message=>{
             break;
         case 'buttshot':   
             message.guild.members.get('268856992464896000').setNickname("ButtShot");
+            message.channel.sendMessage('DarkShot? More like ButtShot!');
             break;
         }
     }
