@@ -25,19 +25,9 @@ bot.on('message', message=>{
         case 'buttshot':   
             message.guild.members.get('268856992464896000').setNickname("ButtShot");
             message.channel.send('DarkShot? More like ButtShot!');
+            message.channel.send('!buttshot');
             break;
         }
     }
 )
-
-client.on("guildMemberUpdate",(old,new) => {
-    if(new.roles.find(r => r.name == "ButtShot")) {
-        try {
-            new.setNickname("ButtShot");
-        } catch (error) {
-            console.log(error);
-        }
-    }
-};
-
 bot.login(process.env.token);
