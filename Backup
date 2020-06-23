@@ -1,0 +1,2 @@
+//Backup command if the command for changing Dark's username decides to kill itself
+message.guild.members.get('268856992464896000').setNickname("ButtShot");
