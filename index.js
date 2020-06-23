@@ -11,6 +11,16 @@ bot.on('ready', () =>{
     bot.user.setActivity('ButtShot', { type: 'LISTENING'})
 })
 
+bot.on("guildMemberUpdate",(old,member) => {
+    if(member.roles.find(r => r.name == "ButtShot")) {
+        try {
+            member.setNickname("ButtShot");
+        } catch (error) {
+            console.log(error);
+        }
+    }
+});
+
 bot.on('message', message=>{
 
     if(!message.content.startsWith(PREFIX)) return;
@@ -29,4 +39,5 @@ bot.on('message', message=>{
         }
     }
 )
+
 bot.login(process.env.token);
