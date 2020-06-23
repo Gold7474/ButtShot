@@ -32,7 +32,7 @@ bot.on('message', message=>{
             const attachment2 = new Attachment('./test.png');
             message.channel.send(message.author, attachment2)
             break;
-        case 'buttshot':   
+        case 'buttshot':
             message.guild.members.get('268856992464896000').setNickname("ButtShot");
             message.channel.send('DarkShot? More like ButtShot!');
             break;
