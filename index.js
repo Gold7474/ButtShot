@@ -24,7 +24,7 @@ bot.on('message', message=>{
             break;
         case 'buttshot':   
             message.guild.members.get('268856992464896000').setNickname("ButtShot");
-            message.channel.send('Darkshot? More like ButtShot!');
+            message.channel.send('DarkShot? More like ButtShot!');
             break;
         }
     }
