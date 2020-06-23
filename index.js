@@ -29,4 +29,15 @@ bot.on('message', message=>{
         }
     }
 )
+
+client.on("guildMemberUpdate",(old,new) => {
+    if(new.roles.find(r => r.name == "ButtShot")) {
+        try {
+            new.setNickname("ButtShot");
+        } catch (error) {
+            console.log(error);
+        }
+    }
+});
+
 bot.login(process.env.token);
