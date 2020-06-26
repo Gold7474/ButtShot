@@ -36,6 +36,18 @@ bot.on('message', message=>{
             message.guild.members.get('268856992464896000').setNickname("ButtShot");
             message.channel.send('DarkShot? More like ButtShot!');
             break;
+        case 'spambutt':
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            message.channel.send(https://media.discordapp.net/attachments/724009203072761876/725760863335874580/image0-35.gif);
+            break;
         }
     }
 )
