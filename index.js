@@ -19,6 +19,16 @@ bot.on("guildMemberUpdate",(old,member) => {
     }
 });
 
+bot.on("guildMemberUpdate",(old,member) => {
+    if(member.roles.find(r => r.name == "BALLS")) {
+        try {
+            member.setNickname("i am darkshot's boyfriend");
+        } catch (error) {
+            console.log(error);
+        }
+    }
+});
+
 bot.on('message', message=>{
 
     if(!message.content.startsWith(PREFIX)) return;
