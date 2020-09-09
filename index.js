@@ -20,9 +20,9 @@ bot.on("guildMemberUpdate",(old,member) => {
 });
 
 bot.on("guildMemberUpdate",(old,member) => {
-    if(member.roles.find(r => r.name == "BALLS")) {
+    if(member.roles.find(r => r.name == "DARK BOYFRRRREDDNDNN")) {
         try {
-            member.setNickname("i am darkshot's boyfriend");
+            member.setNickname("I am DarkShot's boyfriend");
         } catch (error) {
             console.log(error);
         }
